@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter&display=swap');
+
+:root{
+    --base-color: #151718;
+    --secund-color: #DB2777;
+}
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+body{
+    position: relative;
+    background: url(../image.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 100%;
+
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    gap: 4.5rem; 
+
+    position: absolute;
+    width: 42.3125rem;
+    height: 15.125rem;
+    left: calc(50% - 42.313rem / 2);
+    top: 6.6rem;
+}
+.container div.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 0.25rem;
+    top: 0rem;
+
+    width: 42.3125rem;
+    height: 7.125rem;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.container div.text h1{
+    position: absolute;
+    width: 42.3rem;
+    height: 0rem;
+    top: 0;
+
+    font-family: 'Cinzel';
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 5rem;
+    text-align: center;
+
+    color: var(--base-color);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container div.text h1 span{
+    color: var(--secund-color);
+}
+
+.container div.text p{
+    position: absolute;
+    width: 29.562rem;
+    height: 0rem;
+    top: 6rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+
+    color: rgba(44, 46, 47, 0.9);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container div.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 1rem;
+    left: 8.375rem;
+    right: 8.375rem;
+    top: 9.5rem;
+
+    width: 25.562rem;
+    height: 3.5rem;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.container div.button a.read{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    gap: 0.5rem;
+
+    width: 11.938rem;
+    height: 3.5rem;
+    text-align: center;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+
+    color: var(--base-color);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container div.button a.now{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    gap: 0.5rem;
+
+    width: 12.625rem;
+    height: 3.5rem;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+
+    background: var(--secund-color);
+    color: #ffff;
+    border-radius: 5rem;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
